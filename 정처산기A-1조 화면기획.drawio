@@ -857,194 +857,194 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IMp-s1u7ZAfEE-WYwfbh" name="유스케이스_명세서">
-    <mxGraphModel dx="1082" dy="2182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="415" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-1" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 커뮤니티 글 작성" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2104" y="-402" width="510" height="540" as="geometry" />
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-1" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 커뮤니티 글 작성" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="-420" width="510" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="40" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-3" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-2">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-3" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-2" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-4" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;회원이 게시판에 글을 작성할 수 있도록 절차를 완료한다&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-2">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-4" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;회원이 게시판에 글을 작성할 수 있도록 절차를 완료한다&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-2" vertex="1">
           <mxGeometry x="60" width="450" height="30" as="geometry">
             <mxRectangle width="450" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="70" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-6" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-5">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-6" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-5" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-7" value="회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-5">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-7" value="회원" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-5" vertex="1">
           <mxGeometry x="60" width="450" height="30" as="geometry">
             <mxRectangle width="450" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="100" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-9" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-8">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-9" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-8" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-10" value="회원은 회원가입 되어있는 상태여야 하고, 로그인이 되어 있어야 한다." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-8">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-10" value="회원은 회원가입 되어있는 상태여야 하고, 로그인이 되어 있어야 한다." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-8" vertex="1">
           <mxGeometry x="60" width="450" height="30" as="geometry">
             <mxRectangle width="450" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="130" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-12" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-11">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-12" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-11" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-13" value="작성 글 게시" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-11">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-13" value="작성 글 게시" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-11" vertex="1">
           <mxGeometry x="60" width="450" height="30" as="geometry">
             <mxRectangle width="450" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="160" width="510" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-15" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-14">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-15" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-14" vertex="1">
           <mxGeometry width="60" height="120" as="geometry">
             <mxRectangle width="60" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-16" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1. 글 작성하기 버튼을 누른다&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;2. 시스템이 글 작성 페이지를 보여준다&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;3. 회원은 카테고리를 선택한다&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;4. 회원은 양식에 맞게 글을 작성한다.&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;5. 시스템은 작성한 게시글을 카테고리에 맞게 저장&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;6. 시스템은 커뮤니티 페이지로 이동한다.&amp;nbsp;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;/div&gt;&#xa;&#xa;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-14">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-16" value="1. 글 작성하기 버튼을 누른다&#xa;2. 시스템이 글 작성 페이지를 보여준다&#xa;3. 회원은 카테고리를 선택한다&#xa;4. 회원은 양식에 맞게 글을 작성한다.&#xa;5. 시스템은 작성한 게시글을 카테고리에 맞게 저장&#xa;6. 시스템은 커뮤니티 페이지로 이동한다." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="P0rbtfLzOz1WPx_XdBql-14" vertex="1">
           <mxGeometry x="60" width="450" height="120" as="geometry">
             <mxRectangle width="450" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="280" width="510" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-18" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-17">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-18" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-17" vertex="1">
           <mxGeometry width="60" height="80" as="geometry">
             <mxRectangle width="60" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-19" value="&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;글 작성 취소 버튼을 입력하면 커뮤니티 페이지로 이동&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-17">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-19" value="&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;글 작성 취소 버튼을 입력하면 커뮤니티 페이지로 이동&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-17" vertex="1">
           <mxGeometry x="60" width="450" height="80" as="geometry">
             <mxRectangle width="450" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-1" vertex="1">
           <mxGeometry y="360" width="510" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-21" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-20">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-21" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-20" vertex="1">
           <mxGeometry width="60" height="180" as="geometry">
             <mxRectangle width="60" height="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-22" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3a 회원이 카테고리 미 선택 시&lt;br&gt;시스템은 &#39;카테고리를 작성해주세요&#39; 라는 메세지를 회원에게 전달&lt;div&gt;&lt;br&gt;4a 회원이 글 내용을 작성하지 않을 시&lt;div&gt;시스템은 &#39;글 내용을 입력해주세요&#39;라는 메세지를 회원에게 전달&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-20">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-22" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;3a 회원이 카테고리 미 선택 시&lt;br&gt;시스템은 &#39;카테고리를 작성해주세요&#39; 라는 메세지를 회원에게 전달&lt;div&gt;&lt;br&gt;4a 회원이 글 내용을 작성하지 않을 시&lt;div&gt;시스템은 &#39;글 내용을 입력해주세요&#39;라는 메세지를 회원에게 전달&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-20" vertex="1">
           <mxGeometry x="60" width="450" height="180" as="geometry">
             <mxRectangle width="450" height="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-23" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 프로젝트 모집글 참여" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-23" value="&lt;div&gt;&amp;lt;&amp;lt;유스케이스 명세서&amp;gt;&amp;gt;&lt;/div&gt;유스케이스명 : 프로젝트 모집글 참여" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1514" y="-402" width="530" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;verticalAlign=middle;fontStyle=0" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="40" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-25" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-24">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-25" value="목표" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-24" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-26" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;전문가 프로젝트에 참여할 수 있도록 한다.&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-24">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-26" value="&lt;span style=&quot;font-weight: 400; text-wrap: nowrap;&quot;&gt;전문가 프로젝트에 참여할 수 있도록 한다.&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-24" vertex="1">
           <mxGeometry x="60" width="470" height="30" as="geometry">
             <mxRectangle width="470" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="70" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-28" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-27">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-28" value="엑터" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-27" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-29" value="전문가" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-27">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-29" value="전문가" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-27" vertex="1">
           <mxGeometry x="60" width="470" height="30" as="geometry">
             <mxRectangle width="470" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="100" width="530" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-31" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-30">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-31" value="사전 조건" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-30" vertex="1">
           <mxGeometry width="60" height="50" as="geometry">
             <mxRectangle width="60" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-32" value="&lt;div&gt;전문가는 로그인이 되어있는 상태여야 한다.&lt;/div&gt;전문가는 회원 상태에서 관리자에게 전문가 역할을 부여받은 상태여야 한다." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-30">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-32" value="&lt;div&gt;전문가는 로그인이 되어있는 상태여야 한다.&lt;/div&gt;전문가는 회원 상태에서 관리자에게 전문가 역할을 부여받은 상태여야 한다." style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-30" vertex="1">
           <mxGeometry x="60" width="470" height="50" as="geometry">
             <mxRectangle width="470" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="150" width="530" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-34" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-33">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-34" value="사후 처리" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-33" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-35" value="프로젝트 참여" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-33">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-35" value="프로젝트 참여" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-33" vertex="1">
           <mxGeometry x="60" width="470" height="30" as="geometry">
             <mxRectangle width="470" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="180" width="530" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-37" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-36">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-37" value="기본흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-36" vertex="1">
           <mxGeometry width="60" height="120" as="geometry">
             <mxRectangle width="60" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1. 전문가는 메인 홈페이지에서 Project Requirement 버튼을 누른다.&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;2. 시스템은 전문가를 프로젝트 모집 페이지로 이동시킨다.&lt;br&gt;3. 전문가는 원하는 모집글을 선택해 해당 이미지를 클릭한다.&lt;br&gt;4. 시스템은 해당 모집글의 지원서 작성 페이지를 보여준다&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;5. 회원은 양식에 맞게 글을 작성하고 지원신청 버튼을 누른다.&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;6. 시스템은 모집글을 작성한 전문가에게 지원한 전문가의 정보를 메세지로 전달한다.&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;7. 모집글을 작성한 전문가가 승인 버튼을 누르면 절차가 완료된다.&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-36">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-38" value="&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;1. 전문가는 메인 홈페이지에서 Project Requirement 버튼을 누른다.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;2. 시스템은 전문가를 프로젝트 모집 페이지로 이동시킨다.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;3. 전문가는 원하는 모집글을 선택해 해당 이미지를 클릭한다.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;4. 시스템은 해당 모집글의 지원서 작성 페이지를 보여준다&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;5. 회원은 양식에 맞게 글을 작성하고 지원신청 버튼을 누른다.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;6. 시스템은 모집글을 작성한 전문가에게 지원한 전문가의 정보를 메세지로 전달한다.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;7. 모집글을 작성한 전문가가 승인 버튼을 누르면 절차가 완료된다.&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-36" vertex="1">
           <mxGeometry x="60" width="470" height="120" as="geometry">
             <mxRectangle width="470" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="300" width="530" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-40" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-39">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-40" value="대안흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-39" vertex="1">
           <mxGeometry width="60" height="80" as="geometry">
             <mxRectangle width="60" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-41" value="&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;1. 모집 지원서 작성 도중 뒤로가기 버튼을 누르면 모집 홈페이지로 이동.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;2. 모집글을 작성한 전문가가 승인 거절 버튼을 누르면 시스템은 해당 메세지를&lt;br&gt;지원한 전문가에게 전달한다.&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-39">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-41" value="&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;1. 모집 지원서 작성 도중 뒤로가기 버튼을 누르면 모집 홈페이지로 이동.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap: nowrap;&quot;&gt;2. 모집글을 작성한 전문가가 승인 거절 버튼을 누르면 시스템은 해당 메세지를&lt;br&gt;지원한 전문가에게 전달한다.&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-39" vertex="1">
           <mxGeometry x="60" width="470" height="80" as="geometry">
             <mxRectangle width="470" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-23">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="P0rbtfLzOz1WPx_XdBql-23" vertex="1">
           <mxGeometry y="380" width="530" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-43" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-42">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-43" value="예외흐름" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-42" vertex="1">
           <mxGeometry width="60" height="180" as="geometry">
             <mxRectangle width="60" height="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P0rbtfLzOz1WPx_XdBql-44" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;3a. 모집 기간이 아닌 경우&lt;br&gt;시스템은 지원 기간이 아니라는 메세지를 지원한 전문가에게 보낸다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5a. 지원한 전문가가가 신청 양식에 필수 정보를 누락시킨 경우&lt;br&gt;시스템은 누락된 항목을 표시하고 오류메세지를 지원한 전문가에게 보낸다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5b. 지원중인 전문가가 지원서를 작성하는 도중 모집글을 작성한 전문가가 해당 글을&lt;br&gt;삭제/ 수정한 경우&lt;br&gt;시스템은 오류메세지를 지원중인 전문가에게 보낸다.&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="P0rbtfLzOz1WPx_XdBql-42">
+        <mxCell id="P0rbtfLzOz1WPx_XdBql-44" value="&lt;div style=&quot;text-wrap: nowrap;&quot;&gt;&lt;div&gt;3a. 모집 기간이 아닌 경우&lt;br&gt;시스템은 지원 기간이 아니라는 메세지를 지원한 전문가에게 보낸다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5a. 지원한 전문가가가 신청 양식에 필수 정보를 누락시킨 경우&lt;br&gt;시스템은 누락된 항목을 표시하고 오류메세지를 지원한 전문가에게 보낸다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5b. 지원중인 전문가가 지원서를 작성하는 도중 모집글을 작성한 전문가가 해당 글을&lt;br&gt;삭제/ 수정한 경우&lt;br&gt;시스템은 오류메세지를 지원중인 전문가에게 보낸다.&lt;/div&gt;&lt;/div&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="P0rbtfLzOz1WPx_XdBql-42" vertex="1">
           <mxGeometry x="60" width="470" height="180" as="geometry">
             <mxRectangle width="470" height="180" as="alternateBounds" />
           </mxGeometry>
