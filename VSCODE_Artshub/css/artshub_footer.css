@@ -8,13 +8,6 @@
 }
 
 /* --------------------기본 세팅-------------------- */
-body{
-    box-sizing: border-box;
-    max-width: 1280px;
-    left: 0;
-    top: 0;
-    margin: auto;
-}
 li{
     list-style: none;
 }
@@ -25,6 +18,11 @@ a{
 
 
 footer{
+    box-sizing: border-box;
+    max-width: 1280px;
+    left: 0;
+    top: 0;
+    margin: auto;
     height: 400px;
 }
 .material-symbols-outlined {
@@ -50,11 +48,16 @@ footer{
 .footer-top ul li{
     display: flex;
     gap: 5px;
+    margin: 0;
 }
 .footer-top ul:first-child{
+    margin: 0;
     align-items: center;
     height: 100%;
     padding: 0;
+}
+.footer-top ul:first-child li a{
+    align-items: center;
 }
 .footer-top ul:nth-child(2){
     height: 100%;
@@ -69,7 +72,6 @@ footer{
 .footer-contents{
     height: calc(100% - 42px);
     display: flex;
-    /* justify-content: space-between; */
     gap: 100px;
     margin: 0;
 }
@@ -152,4 +154,26 @@ footer{
     font-size: 14px;
     color: #495057;
     margin-top: 8px;
+}
+.footer-contents>.footer-right>ul:nth-child(3){
+    display: flex;
+    gap: 20px;
+}
+.footer-contents>.footer-right>ul:nth-child(3) a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.footer-contents>.footer-right>ul:nth-child(3) .material-symbols-outlined{
+    font-size: 40px;
+    width: 30px;
+}
+.footer-contents>.footer-right>ul:nth-child(3)>a>img{
+    width: 30px;
+}
+@media(max-width : 1100px){
+    footer{
+        display: none;
+    }
 }
