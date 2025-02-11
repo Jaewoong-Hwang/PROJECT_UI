@@ -33,6 +33,7 @@
             display: flex;
             justify-content: center;
             padding: 20px 0;
+            min-width: 400px;
         }
 
         .search-bar input {
@@ -48,6 +49,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+            
         }
 
         .categories {
@@ -79,20 +81,34 @@
             justify-content: center;
             font-size: 20px;
             cursor: pointer;
+            
         }
 
-        .title {
+       
+        .section-wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .title_1 {
             font-size: 2.5rem;
             font-weight: bold;
             color: #29c3ff;
             margin-bottom: 10px;
+            margin-top: -100px;
+            /* background-color: red; */
+           
+
         }
-        .totalview{
+
+        .totalview {
             text-decoration-line: underline;
             display: block;
             margin-bottom: 10px;
 
         }
+
 
         .expert-section {
             padding: 20px;
@@ -149,8 +165,8 @@
             text-align: left;
 
         }
-        
-        .bold{
+
+        .bold {
             font-weight: bold;
             font-size: 1.2rem;
         }
@@ -182,6 +198,66 @@
             border-bottom: 1px solid #ddd;
             padding: 15px 0;
         }
+
+        .ranking-section {
+            width: 350px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .ranking-title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #29c3ff;
+            margin-bottom: 15px;
+        }
+
+        .ranking-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .ranking-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .ranking-item .text-content {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .ranking-item .title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .ranking-item .description {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .ranking-item .funding-info {
+            font-size: 13px;
+            color: #29c3ff;
+        }
+
+        .ranking-item .ranking-image {
+            width: 80px;
+            height: 80px;
+            background-color: #ccc;
+            border-radius: 10px;
+            flex-shrink: 0;
+            margin-left: 10px;
+        }
     </style>
 </head>
 
@@ -206,197 +282,244 @@
         </div>
         <div class="nav-arrow">&#9654;</div>
     </div>
-
-    <section class="expert-section">
-        <div class="title">이달의 전문가</div>
-        <a href="이달의 전문가 전체보기 페이지" class="totalview">전체보기</a>
-        <div class="expert-container">
-            <div class="expert-category">
-                <div class="expert-box">
-                    <div class="expert-title">무대 디자인</div>
-                    <div class="expert-top">
-                        <div class="expert-info">
-                            <div class="bold">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
+    <section class="section-wrap">
+        <section class="expert-section">
+            <div class="title_1">이달의 전문가</div>
+            <a href="이달의 전문가 전체보기 페이지" class="totalview">전체보기</a>
+            <div class="expert-container">
+                <div class="expert-category">
+                    <div class="expert-box">
+                        <div class="expert-title">무대 디자인</div>
+                        <div class="expert-top">
+                            <div class="expert-info">
+                                <div class="bold">
+                                    <div class="name">🥇 StageCraft Studio</div>
+                                    <div class="amount">1,950,000,000원</div>
+                                </div>
                             </div>
+                            <div class="profile-img"></div>
                         </div>
-                        <div class="profile-img"></div>
+                    </div>
+                    <div class="expert-list">
+                        <ul>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥈 무대의 정석</div>
+                                    <div class="amount">1,200,450,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
+                <div class="expert-category">
+                    <div class="expert-box">
+                        <div class="expert-title">무대 디자인</div>
+                        <div class="expert-top">
                             <div class="expert-info">
-                                <div class="name">🥈 무대의 정석</div>
-                                <div class="amount">1,200,450,000원</div>
+                                <div class="bold">
+                                    <div class="name">🥇 StageCraft Studio</div>
+                                    <div class="amount">1,950,000,000원</div>
+                                </div>
                             </div>
                             <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expert-category">
-                <div class="expert-box">
-                    <div class="expert-title">무대 디자인</div>
-                    <div class="expert-top">
-                        <div class="expert-info">
-                            <div class="bold">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
-                            </div>
                         </div>
-                        <div class="profile-img"></div>
+                    </div>
+                    <div class="expert-list">
+                        <ul>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥈 무대의 정석</div>
+                                    <div class="amount">1,200,450,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
+                <div class="expert-category">
+                    <div class="expert-box">
+                        <div class="expert-title">무대 디자인</div>
+                        <div class="expert-top">
                             <div class="expert-info">
-                                <div class="name">🥈 무대의 정석</div>
-                                <div class="amount">1,200,450,000원</div>
+                                <div class="bold">
+                                    <div class="name">🥇 StageCraft Studio</div>
+                                    <div class="amount">1,950,000,000원</div>
+                                </div>
                             </div>
                             <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expert-category">
-                <div class="expert-box">
-                    <div class="expert-title">무대 디자인</div>
-                    <div class="expert-top">
-                        <div class="expert-info">
-                            <div class="bold">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
-                            </div>
                         </div>
-                        <div class="profile-img"></div>
+                    </div>
+                    <div class="expert-list">
+                        <ul>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥈 무대의 정석</div>
+                                    <div class="amount">1,200,450,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
+                <div class="expert-category">
+                    <div class="expert-box">
+                        <div class="expert-title">무대 디자인</div>
+                        <div class="expert-top">
                             <div class="expert-info">
-                                <div class="name">🥈 무대의 정석</div>
-                                <div class="amount">1,200,450,000원</div>
+                                <div class="bold">
+                                    <div class="name">🥇 StageCraft Studio</div>
+                                    <div class="amount">1,950,000,000원</div>
+                                </div>
                             </div>
                             <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expert-category">
-                <div class="expert-box">
-                    <div class="expert-title">무대 디자인</div>
-                    <div class="expert-top">
-                        <div class="expert-info">
-                            <div class="bold">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
-                            </div>
                         </div>
-                        <div class="profile-img"></div>
+                    </div>
+                    <div class="expert-list">
+                        <ul>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥈 무대의 정석</div>
+                                    <div class="amount">1,200,450,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                            <li>
+                                <div class="expert-info">
+                                    <div class="name">🥉 Theater Vision</div>
+                                    <div class="amount">1,045,800,000원</div>
+                                </div>
+                                <div class="profile-img"></div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥈 무대의 정석</div>
-                                <div class="amount">1,200,450,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥉 Theater Vision</div>
-                                <div class="amount">1,045,800,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </div>
+        </section>
+        <section class="ranking-section">
+            <div class="ranking-title">펀딩 실시간 랭킹</div>
+            <ul class="ranking-list">
+                <li class="ranking-item">
+                    <div class="text-content">
+                        <div class="title">1. [완판 임박] 🌊 수중 오페라 &lt;심청&gt;</div>
+                        <div class="description">"진짜 물 위에서 펼쳐지는 환상적인 공연"</div>
+                        <div class="funding-info">👀 펀딩 92% 달성 | 6,284명 관람 예정</div>
+                    </div>
+                    <div class="ranking-image"></div>
+                </li>
+                <li class="ranking-item">
+                    <div class="text-content">
+                        <div class="title">2. [최초 공개] ⏳ 타임루프 뮤지컬 RE:WIND</div>
+                        <div class="description">"매일 똑같은 하루가 반복된다면?"</div>
+                        <div class="funding-info">🔄 펀딩 89% 달성 | 1,205명 관람 예정</div>
+                    </div>
+                    <div class="ranking-image"></div>
+                </li>
+                <li class="ranking-item">
+                    <div class="text-content">
+                        <div class="title">3. [한정 이벤트] 🎨 &lt;그림 속으로&gt;</div>
+                        <div class="description">"배우가 아닌, 바로 당신이 주인공!"</div>
+                        <div class="funding-info">💡 펀딩 85% 달성 | 3,102명 관람 예정</div>
+                    </div>
+                    <div class="ranking-image"></div>
+                </li>
+                <li class="ranking-item">
+                    <div class="text-content">
+                        <div class="title">4. [전설 매진 예상] 🎻 AI 작곡가 vs 인간 작곡가</div>
+                        <div class="description">"AI가 만든 교향곡 vs 인간 작곡가 작품"</div>
+                        <div class="funding-info">🎟 4,589명 대기 중 | 남은 좌석 14석</div>
+                    </div>
+                    <div class="ranking-image"></div>
+                </li>
+                <li class="ranking-item">
+                    <div class="text-content">
+                        <div class="title">5. [한밤의 공포] 🩸 호러 심포니</div>
+                        <div class="description">"음악이 클라이맥스로 치달을수록…"</div>
+                        <div class="funding-info">🎭 펀딩 95% 달성 | 1,380명 관람 예정</div>
+                    </div>
+                    <div class="ranking-image"></div>
+                </li>
+            </ul>
+        </section>
     </section>
+
 
     <footer>
 
