@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,24 +12,29 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: "Noto Sans KR", sans-serif;
             min-width: 600px;
             background-color: #f9f9f9;
         }
+
         a {
             text-decoration: none;
             color: black;
         }
+
         ul {
             align-items: center;
             list-style: none;
         }
+
         .search-bar {
             display: flex;
             justify-content: center;
             padding: 20px 0;
         }
+
         .search-bar input {
             width: 50%;
             padding: 10px;
@@ -36,16 +42,19 @@
             border-radius: 20px;
             font-size: 16px;
         }
+
         .category-nav {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
         }
+
         .categories {
             display: flex;
             gap: 10px;
         }
+
         .category {
             background-color: #bcbcbc;
             padding: 10px;
@@ -59,6 +68,7 @@
             color: black;
             font-weight: bold;
         }
+
         .nav-arrow {
             width: 40px;
             height: 40px;
@@ -70,80 +80,116 @@
             font-size: 20px;
             cursor: pointer;
         }
-        .title{
+
+        .title {
             font-size: 2.5rem;
             font-weight: bold;
             color: #29c3ff;
+            margin-bottom: 10px;
         }
+        .totalview{
+            text-decoration-line: underline;
+            display: block;
+            margin-bottom: 10px;
+
+        }
+
         .expert-section {
             padding: 20px;
             text-align: center;
             margin: 15px;
-            
+
         }
+
+        .expert-section {
+            padding: 20px;
+            text-align: center;
+        }
+
         .expert-container {
             display: flex;
             justify-content: center;
             gap: 30px;
             flex-wrap: wrap;
-            margin: 15px;
         }
-        .expert-category {
-            width: 50%px;
-            /* border-radius: 10px;
-            border: 2px solid #29c3ff;
-            padding: 15px;
-            background-color: white;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
 
+        .expert-category {
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
-        .expert-title {
-            border-radius: 10px;
+
+        .expert-box {
             border: 2px solid #29c3ff;
-            padding: 30px;
+            border-radius: 10px;
             background-color: white;
+            padding: 0px;
             text-align: center;
+            width: 100%;
+        }
+
+        .expert-title {
             font-weight: bold;
             font-size: 18px;
-            margin-bottom: 15px;
-            position: relative;
-            /* z-index: 1; */
+            border-bottom: 2px solid #29c3ff;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
         }
-        .expert-list {
-            border-radius: 10px;
-            padding: 15px;
-            background-color: white;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .expert-list ul {
-            padding: 10px;
-            text-align: left;
-        }
-        .expert-list li {
+
+        .expert-top {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 1px solid #ddd;
-            padding: 10px 0;
-            font-size: 16px;
+            padding: 15px;
         }
+
         .expert-info {
-            display: flex;
-            flex-direction: column;
+            text-align: left;
+
         }
+        
+        .bold{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
         .profile-img {
             width: 40px;
             height: 40px;
             border-radius: 50%;
             background-color: #ccc;
         }
+
+        .expert-list {
+            border-radius: 10px;
+            background-color: white;
+            padding: 15px;
+            width: 100%;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .expert-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .expert-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
     </style>
 </head>
+
 <body>
     <div class="search-bar">
         <input type="text" placeholder="Search in site">
     </div>
-    
+
     <div class="category-nav">
         <div class="nav-arrow">&#9664;</div>
         <div class="categories">
@@ -160,21 +206,26 @@
         </div>
         <div class="nav-arrow">&#9654;</div>
     </div>
-    
+
     <section class="expert-section">
         <div class="title">이달의 전문가</div>
+        <a href="이달의 전문가 전체보기 페이지" class="totalview">전체보기</a>
         <div class="expert-container">
             <div class="expert-category">
-                <div class="expert-title" >무대 디자인</div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
-                            <div class="expert-info">
+                <div class="expert-box">
+                    <div class="expert-title">무대 디자인</div>
+                    <div class="expert-top">
+                        <div class="expert-info">
+                            <div class="bold">
                                 <div class="name">🥇 StageCraft Studio</div>
                                 <div class="amount">1,950,000,000원</div>
                             </div>
-                            <div class="profile-img"></div>
-                        </li>
+                        </div>
+                        <div class="profile-img"></div>
+                    </div>
+                </div>
+                <div class="expert-list">
+                    <ul>
                         <li>
                             <div class="expert-info">
                                 <div class="name">🥈 무대의 정석</div>
@@ -189,24 +240,10 @@
                             </div>
                             <div class="profile-img"></div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expert-category">
-                <div class="expert-title" >무대 디자인</div>
-                <div class="expert-list">
-                    <ul>
                         <li>
                             <div class="expert-info">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
-                            </div>
-                            <div class="profile-img"></div>
-                        </li>
-                        <li>
-                            <div class="expert-info">
-                                <div class="name">🥈 무대의 정석</div>
-                                <div class="amount">1,200,450,000원</div>
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
                             </div>
                             <div class="profile-img"></div>
                         </li>
@@ -221,16 +258,20 @@
                 </div>
             </div>
             <div class="expert-category">
-                <div class="expert-title" >무대 디자인</div>
-                <div class="expert-list">
-                    <ul>
-                        <li>
-                            <div class="expert-info">
+                <div class="expert-box">
+                    <div class="expert-title">무대 디자인</div>
+                    <div class="expert-top">
+                        <div class="expert-info">
+                            <div class="bold">
                                 <div class="name">🥇 StageCraft Studio</div>
                                 <div class="amount">1,950,000,000원</div>
                             </div>
-                            <div class="profile-img"></div>
-                        </li>
+                        </div>
+                        <div class="profile-img"></div>
+                    </div>
+                </div>
+                <div class="expert-list">
+                    <ul>
                         <li>
                             <div class="expert-info">
                                 <div class="name">🥈 무대의 정석</div>
@@ -245,24 +286,102 @@
                             </div>
                             <div class="profile-img"></div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expert-category">
-                <div class="expert-title" >무대 디자인</div>
-                <div class="expert-list">
-                    <ul>
                         <li>
                             <div class="expert-info">
-                                <div class="name">🥇 StageCraft Studio</div>
-                                <div class="amount">1,950,000,000원</div>
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
                             </div>
                             <div class="profile-img"></div>
                         </li>
                         <li>
                             <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="expert-category">
+                <div class="expert-box">
+                    <div class="expert-title">무대 디자인</div>
+                    <div class="expert-top">
+                        <div class="expert-info">
+                            <div class="bold">
+                                <div class="name">🥇 StageCraft Studio</div>
+                                <div class="amount">1,950,000,000원</div>
+                            </div>
+                        </div>
+                        <div class="profile-img"></div>
+                    </div>
+                </div>
+                <div class="expert-list">
+                    <ul>
+                        <li>
+                            <div class="expert-info">
                                 <div class="name">🥈 무대의 정석</div>
                                 <div class="amount">1,200,450,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="expert-category">
+                <div class="expert-box">
+                    <div class="expert-title">무대 디자인</div>
+                    <div class="expert-top">
+                        <div class="expert-info">
+                            <div class="bold">
+                                <div class="name">🥇 StageCraft Studio</div>
+                                <div class="amount">1,950,000,000원</div>
+                            </div>
+                        </div>
+                        <div class="profile-img"></div>
+                    </div>
+                </div>
+                <div class="expert-list">
+                    <ul>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥈 무대의 정석</div>
+                                <div class="amount">1,200,450,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
+                            </div>
+                            <div class="profile-img"></div>
+                        </li>
+                        <li>
+                            <div class="expert-info">
+                                <div class="name">🥉 Theater Vision</div>
+                                <div class="amount">1,045,800,000원</div>
                             </div>
                             <div class="profile-img"></div>
                         </li>
@@ -278,9 +397,10 @@
             </div>
         </div>
     </section>
-    
+
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
