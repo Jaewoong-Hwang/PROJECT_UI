@@ -1,0 +1,176 @@
+!<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtsHub Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Noto Sans KR", sans-serif;
+            min-width: 600px;
+            background-color: #f9f9f9;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        ul {
+            align-items: center;
+            list-style: none;
+        }
+        .navi {
+            width: 80vw;
+            max-width: 1080px;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        .search-bar input {
+            width: 50%;
+            padding: 10px;
+            border: 2px solid #29c3ff;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+        .category-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .categories {
+            display: flex;
+            gap: 10px;
+        }
+        .category {
+            background-color: #bcbcbc;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-weight: bold;
+        }
+        .nav-arrow {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .expert-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .expert-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .expert-category {
+            width: 250px;
+            border-radius: 10px;
+            border: 2px solid #29c3ff;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .expert-category h3 {
+            background-color: white;
+            padding: 10px;
+            font-size: 18px;
+            border-bottom: 2px solid #29c3ff;
+        }
+        .expert-category ul {
+            padding: 10px;
+            text-align: left;
+        }
+        .expert-category li {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navi">
+            <ul class="leftside">
+                <li class="logo">
+                    <img class="img-logo" src="../01HTML/logo/mainlogo.png" alt="">
+                    <span class="artshub">Arts hub</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="search-bar">
+        <input type="text" placeholder="Search in site">
+    </div>
+    
+    <div class="category-nav">
+        <div class="nav-arrow">&#9664;</div>
+        <div class="categories">
+            <div class="category">재즈</div>
+            <div class="category">무용</div>
+            <div class="category">뮤지컬</div>
+            <div class="category">연극</div>
+            <div class="category">클래식</div>
+            <div class="category">국악</div>
+            <div class="category">어린이</div>
+            <div class="category">밴드</div>
+            <div class="category">아방가르드</div>
+            <div class="category">오페라</div>
+        </div>
+        <div class="nav-arrow">&#9654;</div>
+    </div>
+    
+    <section class="expert-section">
+        <h2>이달의 전문가</h2>
+        <div class="expert-container">
+            <div class="expert-category">
+                <h3>무대 디자인</h3>
+                <ul>
+                    <li>🥇 StageCraft Studio - 1,950,000,000원</li>
+                    <li>🥈 무대의 정석 - 1,200,450,000원</li>
+                    <li>🥉 Theater Vision - 1,045,800,000원</li>
+                </ul>
+            </div>
+            <div class="expert-category">
+                <h3>작곡</h3>
+                <ul>
+                    <li>🥇 Symphony Works - 1,950,000,000원</li>
+                    <li>🥈 MusiLab Studio - 1,700,230,000원</li>
+                    <li>🥉 FilmScore - 1,580,400,000원</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 ArtsHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
