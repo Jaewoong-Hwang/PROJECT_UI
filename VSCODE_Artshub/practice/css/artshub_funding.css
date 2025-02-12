@@ -29,6 +29,7 @@ main>.nav1 {
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: hidden;
+    padding: 10px;
 }
 
 .slider {
@@ -43,7 +44,7 @@ main>.nav1>.slider .nav1-contents {
     width: calc(100vw / 3);
     height: calc(200vw / 9);
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 0;
     margin: 5;
 }
@@ -59,7 +60,7 @@ main>.nav1 .nav1-contents a {
 main>.nav1 .nav1-contents a img {
     width: 100%;
     align-items: center;
-
+    padding: 5px;
 }
 
 .controls label {
@@ -136,14 +137,12 @@ main>div:nth-child(2) {
 
 @media(max-width:1100px) {
     .slider {
-        border: 1px solid;
         width: 600vw;
     }
 
     main>.nav1>.slider .nav1-contents {
         width: 100vw;
         height: calc(200vw / 3);
-        border: 1px solid;
     }
 
     @keyframes slide-nav1 {
@@ -345,12 +344,13 @@ main>div:nth-child(2) {
 .funding>.funding-product li a {
     width: 100%;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .funding>.funding-product li a img {
-    width: 170px;
+    width: 300px;
     height: 170px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px;
     /* min-width: 170; */
 }
@@ -391,7 +391,7 @@ main>div:nth-child(2) {
 .bottom-nav {
     bottom: 0;
     position: fixed;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
     height: 56px;
     border: 1px solid gainsboro;
