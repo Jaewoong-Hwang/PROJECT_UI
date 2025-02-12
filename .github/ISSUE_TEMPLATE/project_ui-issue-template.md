@@ -7,5 +7,8 @@ assignees: ''
 
 ---
 
-##TOTO LIST
-- [ ] 할 일
+##TODO LIST
+- [ ] ex) 할 일
+- [ ] 
+- [ ] 
+- [ ]
