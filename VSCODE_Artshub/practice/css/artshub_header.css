@@ -77,8 +77,7 @@ ul {
     white-space: nowrap;
     background-color: white;
     
-    text-align: center;
-    justify-content: center;
+    text-align: left;
     transition: 1s;
     max-height: 0;
 }
