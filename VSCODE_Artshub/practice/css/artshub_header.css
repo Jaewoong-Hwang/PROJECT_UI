@@ -64,7 +64,6 @@ ul {
     display: flex;
     left: 30px;
     font-weight: 400;
-
 }
 
 .depth2 {
@@ -72,15 +71,22 @@ ul {
     top: 20px;
     left: 0;
     padding: 0;
-    margin-top: 0;
-    display: none;
+    margin-top: 15px;
     z-index: 100;
     /* 텍스트를 한줄로 출력 */
     white-space: nowrap;
+    background-color: white;
+    
+    text-align: center;
+    justify-content: center;
+    transition: 1s;
+    max-height: 0;
 }
 
-.depth2 li a {
-    display: block;
+.depth2 a{
+    display: none;
+    height: 100%;
+    margin: 5px 0;
 }
 
 /* 프로젝트 버튼 */
@@ -105,9 +111,12 @@ ul {
 /* 호버 */
 /* 2뎁스 호버 시 드롭다운 효과 */
 .navi>.leftside>.depth1>li:hover .depth2 {
+    max-height: 100vh;
+    border: 1px solid gainsboro;
+}
+.navi>.leftside>.depth1>li:hover .depth2 li a{
     display: block;
 }
-
 .navi>.leftside>.depth1>li>a:hover {
     color: #29c3ff;
 }
