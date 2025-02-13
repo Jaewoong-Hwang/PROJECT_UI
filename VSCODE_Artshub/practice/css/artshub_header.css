@@ -7,13 +7,7 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Noto Sans KR", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    min-width: 600px;
-}
+
 
 a {
     text-decoration: none;
