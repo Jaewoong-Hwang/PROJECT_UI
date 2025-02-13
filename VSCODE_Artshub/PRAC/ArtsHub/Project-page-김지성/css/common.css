@@ -1,0 +1,23 @@
+        /* common */
+
+        @font-face {
+            font-family: "noto-sans-kr";
+            src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+            font-size: normal;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0 ;
+            font-family: "noto-sans-kr";
+        }

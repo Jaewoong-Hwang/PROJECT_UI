@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24/
+        }
+
+        .slide-block input {
+            display: none;
+        }
+
+        .slide-block .slide-wrap {
+            border: 1px solid;
+            max-width: 1200px;
+            margin: 0 auto;
+            /* overflow: hidden; */
+        }
+
+        .slide-block .slide-list {
+            white-space: nowrap;
+            font-size: 15px;
+            /* display: flex; */
+            padding: 0;
+        }
+
+        .slide-block .slide-list>li {
+            /* display: flex; */
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            transition: .5s;
+        }
+
+        .slide-block .slide-list>li>a {
+            display: block;
+            position: relative;
+
+        }
+
+        .slide-block .slide-list>li>a img {
+            width: 100%;
+        }
+
+        .slide-block .slide-list label {
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            /* padding: 50px; */
+            cursor: pointer;
+            color: white;
+            font-size: 7rem;
+            /* display: none; */
+        }
+
+        .slide-block>input[type="radio"]#slide-2:checked~.slide-wrap>ul.slide-list>li{
+            transform: translateX(-100%);
+        }
+        .slide-block>input[type="radio"]#slide-3:checked~.slide-wrap>ul.slide-list>li{
+            transform: translateX(-200%);
+        }
+        .slide-block>input[type="radio"]#slide-4:checked~.slide-wrap>ul.slide-list>li{
+            transform: translateX(-300%);
+        }
+        .slide-block>input[type="radio"]#slide-1:checked~.slide-wrap>ul.slide-list>li{
+            transform: translateX(-0%);
+        }
+
+
+
+        .slide-block .slide-list .left {
+            left: 30px;
+
+        }
+
+
+        .slide-block .slide-list .right {
+            right: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <main>
+        <section>
+            <div class="slide-block">
+                <input type="radio" name="slide" id="slide-1" checked>
+                <input type="radio" name="slide" id="slide-2">
+                <input type="radio" name="slide" id="slide-3">
+                <input type="radio" name="slide" id="slide-4">
+                <div class="slide-wrap">
+                    <ul class="slide-list">
+                        <li>
+                            <a href="">
+                                <label for="slide-4" class="left material-symbols-outlined">arrow_left</label>
+                                <img src="./이미지/밴드.png" alt="">
+                                <label for="slide-2" class="right material-symbols-outlined">arrow_right</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <label for="slide-1" class="left material-symbols-outlined">arrow_left</label>
+                                <img src="./이미지/뮤지컬.png" alt="">
+                                <label for="slide-3" class="right material-symbols-outlined">arrow_right</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <label for="slide-2" class="left material-symbols-outlined">arrow_left</label>
+                                <img src="./이미지/리와인드.png" alt="">
+                                <label for="slide-4" class="right material-symbols-outlined">arrow_right</label>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <label for="slide-3" class="left material-symbols-outlined">arrow_left</label>
+                                <img src="./이미지/어린이.png" alt="">
+                                <label for="slide-1" class="right material-symbols-outlined">arrow_right</label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
