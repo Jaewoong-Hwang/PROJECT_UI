@@ -27,15 +27,23 @@
     .search-bar {
       display: flex;
       justify-content: center;
-      padding: 20px 0;
+      align-items: center;
+      padding: 20px;
       min-width: 400px;
+      max-width: 1024px;
+      margin: 0 auto;
+      
+   
     }
     .search-bar input {
       width: 50%;
       padding: 10px;
-      border: 2px solid #29c3ff;
+      border: 1.7px solid #29c3ff;
       border-radius: 20px;
       font-size: 16px;
+      color: black;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
     }
     .category-nav {
       display: flex;
@@ -45,27 +53,29 @@
     }
     .categories {
       display: flex;
-      gap: 10px;
+      gap: 25px;
     }
     .category {
-      background-color: #bcbcbc;
+      background-color: white;
       padding: 10px;
       border-radius: 50%;
       text-align: center;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: black;
+      color: rgb(164, 164, 164);    /*hover 해야힘
       /* font-weight: bold; */
-      font-size: 1rem;
+      font-size: .9rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     }
     .nav-arrow {
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #ddd;
+      background-color: white;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -73,24 +83,25 @@
       cursor: pointer;
     }
     .section-wrap {
-      max-width: 1548px;
+      max-width: 1348px;
       display:flex;
       align-items: flex-start;
       justify-content: center;
       margin-top: 20px;
       margin: auto;
     }
-    .title_1 {
-      font-size: 2.5rem;
+    /* .title_1 {
+      font-size: 2rem;
       font-weight: bold;
       color: #29c3ff;
       margin-bottom: 10px;
-      margin-top: 10px;
-    }
+      margin-top: 10px; */
+    /* } */
     .totalview {
       text-decoration-line: underline;
       display: block;
       margin-bottom: 20px;
+      color: #939393;
     }
     /* 왼쪽 컬럼 (전문가 + 추천) */
     .left-column {
@@ -109,6 +120,7 @@
       font-weight: bold;
       color: #29c3ff;
       margin-bottom: 10px;
+      margin-top: 10px;
     }
     .expert-section .totalview {
       text-decoration: underline;
@@ -123,13 +135,14 @@
     }
     .expert-category {
       /* width: 280px; */
-      min-width: 250px;
+      min-width: 215px;
+      max-width: 215px;
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
     .expert-box {
-      border: 2px solid #29c3ff;
+      border: 1.5px solid #29c3ff;
       border-radius: 10px;
       background-color: white;
       padding: 0;
@@ -137,9 +150,9 @@
       width: 100%;
     }
     .expert-title {
-      font-weight: bold;
-      font-size: 18px;
-      border-bottom: 2px solid #29c3ff;
+      /* font-weight: bold; */
+      font-size: 1.1rem;
+      border-bottom: 1.5px solid #29c3ff;
       padding-bottom: 10px;
       margin-bottom: 10px;
       margin-top: 10px;
@@ -148,24 +161,27 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px;
+      padding: 12px;
+    
     }
     .expert-info {
       text-align: left;
     }
     .bold {
       font-weight: bold;
-      font-size: 1.2rem;
+      font-size: .9rem;
     }
     .profile-img {
       width: 40px;
       height: 40px;
       border-radius: 50%;
       background-color: #ccc;
+      margin: 5px;
     }
     .expert-list {
       border-radius: 10px;
       background-color: white;
+      font-size: 1rem;
       padding: 15px;
       width: 100%;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -178,8 +194,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid #ddd;
-      padding: 15px 0;
+      border-bottom: .3px solid #ddd;
+      padding: 20px 0;
     }
     /* 반응형: 이달의 전문가 박스 */
     @media (max-width: 1024px) {
@@ -187,14 +203,14 @@
         width: 48%;
       }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 790px) {
       .expert-category {
-        width: 100%;
+        width: 58%;
       }
     }
     /* ===== 취향 맞춤 프로젝트 섹션 ===== */
      .recommend-section {
-      padding: 20px;
+      padding: 20px 40px;
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -205,7 +221,7 @@
       /* box-shadow: 2px 2px 10px rgba(0,0,0,0.05); */ 
     }
     .recommend-section .title_1 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: bold;
       color: #29c3ff;
       margin-bottom: 10px;
@@ -217,7 +233,7 @@
     }
     .recommend-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
     }
     .recommend-item {
@@ -227,6 +243,7 @@
       box-shadow: 1px 1px 5px rgba(0,0,0,0.05);
       overflow: hidden;
       text-align: left;
+      height: 250px;
     }
     .recommend-item img {
       width: 100%;
@@ -260,18 +277,18 @@
     }
     /* ===== 펀딩 실시간 랭킹 섹션 ===== */
     .ranking-section {
-      width: 350px;
+      width: 300px;
       background-color: white;
       border-radius: 10px;
       padding: 20px;
-      margin-top: 50px;
+      margin-top: 20px;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     }
     .ranking-title {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.5rem;
       color: #29c3ff;
-      margin-bottom: 15px;
+      /* margin-bottom: 10px; */
     }
     .ranking-list {
       list-style: none;
@@ -281,8 +298,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid #ddd;
-      padding: 15px 0;
+      border-bottom: .5px solid #ddd;
+      padding: 25px 0;
     }
     .ranking-item .text-content {
       display: flex;
