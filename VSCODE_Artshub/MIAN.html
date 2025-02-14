@@ -289,30 +289,41 @@
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
       overflow: hidden;
       text-align: left;
-      height: 250px;
+      justify-content: center;
+      height: 350px;
     }
 
     .recommend-item img {
       width: 100%;
-      height: auto;
+      height: 70%;
       display: block;
+      object-fit: cover;
     }
 
     .recommend-content {
+      width: 100%;
       padding: 10px;
+
+      /* justify-content: center;
+      align-items: center; */
     }
 
     .recommend-content .percent {
-      font-size: 0.9rem;
+      font-size: 1.3rem;
       font-weight: bold;
       color: #29c3ff;
       margin-bottom: 5px;
     }
 
     .recommend-content .desc {
-      font-size: 0.85rem;
-      color: #333;
+      font-size: 0.9rem;
+      color: #666666;
       line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .recommend-content .desc>p{
+      font-weight: bold;
     }
 
     /* 반응형 */
@@ -381,13 +392,18 @@
     }
 
     .ranking-item .ranking-image {
-      width: 80px;
-      height: 80px;
-      background-color: #ccc;
+      width: 100px;
+      height: 100px;
+      background-size: cover;
+      background-position: center;
+      /* background-color: #ccc; */
       border-radius: 10px;
       flex-shrink: 0;
       margin-left: 10px;
+
     }
+    
+    
   </style>
 </head>
 
@@ -614,45 +630,53 @@
         <div class="recommend-subtitle">지금 함께 만드는 성공</div>
         <div class="recommend-grid">
           <div class="recommend-item">
-            <img src="images/item1.jpg" alt="프로젝트1">
+            <img src="./img/마임의 세계.webp" alt="마임의 세계">
             <div class="recommend-content">
-              <div class="percent">12,997% 달성</div>
-              <div class="desc">6분 만에 완판 임박? 2025에도 계속…</div>
+              <div class="percent">마임의 세계</div>
+              <div class="desc"> "대사 없이도 마음을 전할 수 있다면, 그 순간이 예술이 된다."
+              </div>
+              <p>모집중</p>
             </div>
           </div>
           <div class="recommend-item">
-            <img src="images/item2.jpg" alt="프로젝트2">
+            <img src="./img/브라스 파라다이스.webp" alt="브라스 파라다이스">
             <div class="recommend-content">
-              <div class="percent">6,874% 달성</div>
-              <div class="desc">극장판 스페셜! 예매 대란 시작</div>
+              <div class="percent">브라스 파라다이스</div>
+              <div class="desc"> "금관악기가 울릴 때, 그 순간이 가장 뜨거운 시간!"</div>
+              <p>모집중</p>
             </div>
           </div>
           <div class="recommend-item">
-            <img src="images/item3.jpg" alt="프로젝트3">
+            <img src="./img/소울의 울림.webp" alt="소울의 울림">
             <div class="recommend-content">
-              <div class="percent">7,373% 달성</div>
-              <div class="desc">자신감 폭발? 당신이 주인공!</div>
+              <div class="percent">소울의 울림</div>
+              <div class="desc">"마음 깊숙이 울리는 목소리, 소울의 진짜 울림을 느껴라."</div>
+              <p>모집중</p>
             </div>
           </div>
           <div class="recommend-item">
-            <img src="images/item4.jpg" alt="프로젝트4">
+            <img src="./img/레트로 나이트.webp" alt="레트로 나이트">
             <div class="recommend-content">
-              <div class="percent">9,919% 달성</div>
-              <div class="desc">국산 밀리터리 치킨 스토리?!</div>
+              <div class="percent">레트로 나이트</div>
+              <div class="desc">"반짝이는 불빛 아래, 우리 모두 80년대로 타임슬립!"
+              </div>
+              <p>모집중</p>
             </div>
           </div>
           <div class="recommend-item">
-            <img src="images/item5.jpg" alt="프로젝트5">
+            <img src="./img/빛과 그림자.webp" alt="빛과 그림자">
             <div class="recommend-content">
-              <div class="percent">439% 달성</div>
-              <div class="desc">아이들 교육을 위한 국산 장난감 공연</div>
+              <div class="percent">빛과 그림자</div>
+              <div class="desc"> "빛이 있기에 그림자가 존재하고, 그림자가 있기에 빛은 더욱 빛난다."</div>
+              <p>모집중</p>
             </div>
           </div>
           <div class="recommend-item">
-            <img src="images/item6.jpg" alt="프로젝트6">
+            <img src="./img/환상의 오페라.webp" alt="환상의 오페라">
             <div class="recommend-content">
-              <div class="percent">208% 달성</div>
-              <div class="desc">(2.5평 x 4.7평) 그 틈 사이로 펼쳐지는 무대</div>
+              <div class="percent">환상의 오페라</div>
+              <div class="desc">"비극과 희극이 교차하는 순간, 환상이 현실이 된다."</div>
+              <p>모집중</p>
             </div>
           </div>
         </div><!-- .recommend-grid -->
@@ -669,7 +693,7 @@
             <div class="description">"진짜 물 위에서 펼쳐지는 환상적인 공연"</div>
             <div class="funding-info">👀 펀딩 92% 달성 | 6,284명 관람 예정</div>
           </div>
-          <div class="ranking-image"></div>
+          <div class="ranking-image" style="background-image: url(./img/거리의\ 선율.webp)"></div>
         </li>
         <li class="ranking-item">
           <div class="text-content">
@@ -677,7 +701,7 @@
             <div class="description">"매일 똑같은 하루가 반복된다면?"</div>
             <div class="funding-info">🔄 펀딩 89% 달성 | 1,205명 관람 예정</div>
           </div>
-          <div class="ranking-image"></div>
+          <div class="ranking-image" style="background-image: url()"></div>
         </li>
         <li class="ranking-item">
           <div class="text-content">
@@ -685,7 +709,7 @@
             <div class="description">"배우가 아닌, 바로 당신이 주인공!"</div>
             <div class="funding-info">💡 펀딩 85% 달성 | 3,102명 관람 예정</div>
           </div>
-          <div class="ranking-image"></div>
+          <div class="ranking-image" style="background-image: url()"></div>
         </li>
         <li class="ranking-item">
           <div class="text-content">
@@ -693,7 +717,7 @@
             <div class="description">"AI가 만든 교향곡 vs 인간 작곡가 작품"</div>
             <div class="funding-info">🎟 4,589명 대기 중 | 남은 좌석 14석</div>
           </div>
-          <div class="ranking-image"></div>
+          <div class="ranking-image" style="background-image: url()"></div>
         </li>
         <li class="ranking-item">
           <div class="text-content">
@@ -701,7 +725,7 @@
             <div class="description">"음악이 클라이맥스로 치달을수록…"</div>
             <div class="funding-info">🎭 펀딩 95% 달성 | 1,380명 관람 예정</div>
           </div>
-          <div class="ranking-image"></div>
+          <div class="ranking-image" style="background-image: url()"></div>
         </li>
       </ul>
     </section><!-- .ranking-section -->
