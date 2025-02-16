@@ -56,12 +56,14 @@ ul {
 
 .artshub {
     font-size: 28px;
-    margin-left: 10px;
+    margin-left: 0px;
     font-weight: bold;
 }
 
 .img-logo {
-    width: 40px;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
 }
 
 /* 1뎁스 2뎁스 */
@@ -161,7 +163,8 @@ ul {
     }
 
     .img-logo {
-        width: 60px;
+        width: 100px;
+        height: 100px;
     }
 
     .artshub {
@@ -184,7 +187,8 @@ ul {
     }
 
     .img-logo {
-        width: 80px;
+        width: 150px;
+        height: 150px;
     }
 
     .drop-icon {
