@@ -1,6 +1,6 @@
 /* 기본적인 세팅 */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     margin-top: 10px;
@@ -23,7 +23,7 @@ a {
 ul {
     align-items: center;
     list-style: none;
-}
+} */
 
 /* 네비 세팅 */
 .navi {
