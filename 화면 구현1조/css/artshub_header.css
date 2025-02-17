@@ -1,0 +1,195 @@
+/* 기본적인 세팅 */
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    align-items: center;
+    list-style: none;
+}
+
+/* 네비 세팅 */
+.navi {
+    width: 80vw;
+    max-width: 1080px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navi>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navi ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+/* 로고 */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.artshub {
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.img-logo {
+    width: 40px;
+}
+
+/* 1뎁스 2뎁스 */
+.depth1 {
+    position: relative;
+    display: flex;
+    left: 30px;
+    font-weight: 400;
+}
+
+.depth2 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 0;
+    margin-top: 15px;
+    z-index: 100;
+    /* 텍스트를 한줄로 출력 */
+    white-space: nowrap;
+    background-color: white;
+    
+    text-align: left;
+    transition: 1s;
+    max-height: 0;
+}
+
+.depth2 a{
+    display: none;
+    height: 100%;
+    margin: 5px 0;
+}
+
+/* 프로젝트 버튼 */
+.project {
+    background-color: #29c3ff;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.project>a {
+    display: block;
+    margin: 0;
+}
+
+/* 호버 */
+/* 2뎁스 호버 시 드롭다운 효과 */
+.navi>.leftside>.depth1>li:hover .depth2 {
+    max-height: 100vh;
+    border: 1px solid gainsboro;
+}
+.navi>.leftside>.depth1>li:hover .depth2 li a{
+    display: block;
+}
+.navi>.leftside>.depth1>li>a:hover {
+    color: #29c3ff;
+}
+
+.project:hover {
+    background-color: #0c7dff;
+}
+
+.project:hover a {
+    color: white;
+}
+
+/* 반응형 화면 */
+/* 사용할 아이콘 */
+.drop-icon {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #29c3ff;
+    position: fixed;
+    right: 60px;
+}
+
+.drop-icon:hover {}
+
+/* 1100 이하일때 로그인창 없앰 */
+@media(max-width: 1100px) {
+    .navi {
+        justify-content: center;
+    }
+
+    .rightside li {
+        display: none;
+    }
+
+    .project {
+        display: none;
+    }
+
+    .leftside {}
+
+    .leftside li {
+        width: 150%;
+        font-size: 20px;
+    }
+
+    .img-logo {
+        width: 60px;
+    }
+
+    .artshub {
+        font-size: 40px
+    }
+
+    .drop-icon {
+        display: block;
+    }
+}
+
+/* 800 이하일때 메뉴창도 없앰 */
+@media(max-width: 800px) {
+    .depth1 {
+        display: none;
+    }
+
+    .artshub {
+        font-size: 55px
+    }
+
+    .img-logo {
+        width: 80px;
+    }
+
+    .drop-icon {
+        font-size: 30px;
+    }
+}
