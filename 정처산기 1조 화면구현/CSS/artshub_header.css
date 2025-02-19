@@ -55,7 +55,7 @@ ul {
 }
 
 .img-logo {
-    width: 40px;
+    width: 35px;
 }
 
 /* 1뎁스 2뎁스 */
@@ -71,7 +71,7 @@ ul {
     top: 20px;
     left: 0;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 5px;
     z-index: 100;
     /* 텍스트를 한줄로 출력 */
     white-space: nowrap;
