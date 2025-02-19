@@ -6,7 +6,15 @@
         'opsz' 24
 }
 
-
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 /* 슬라이드 */
