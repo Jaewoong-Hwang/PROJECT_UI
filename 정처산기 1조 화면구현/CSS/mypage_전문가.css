@@ -39,7 +39,12 @@ body>main>section>.all>.mypage>.job1{
     
     margin-top: 30%;
     margin-left: 20%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    gap: 10px;
 }
 body>main>section>.all>.mypage>.job1>.job2{ 
     font-size: 20px;

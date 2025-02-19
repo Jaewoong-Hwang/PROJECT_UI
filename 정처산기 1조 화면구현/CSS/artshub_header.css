@@ -48,10 +48,18 @@ ul {
     align-items: center;
 }
 
+.nav>ul.leftside>li.logo>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .artshub {
     font-size: 28px;
     margin-left: 10px;
     font-weight: bold;
+    display: block;
 }
 
 .img-logo {
