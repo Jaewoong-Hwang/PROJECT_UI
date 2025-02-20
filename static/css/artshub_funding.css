@@ -147,6 +147,7 @@ main>div:nth-child(2) {
 @media(max-width:1100px) {
     .slider {
         width: 600vw;
+        margin-top: 15px;
     }
 
     main>.nav1>.slider .nav1-contents {

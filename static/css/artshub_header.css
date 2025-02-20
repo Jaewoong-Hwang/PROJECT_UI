@@ -155,7 +155,7 @@ ul {
 @media(max-width: 1100px) {
     .navi {
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .rightside li {
@@ -188,6 +188,9 @@ ul {
 
 /* 800 이하일때 메뉴창도 없앰 */
 @media(max-width: 800px) {
+    .navi {
+        margin-top: 20px;
+    }
     .depth1 {
         display: none;
     }
