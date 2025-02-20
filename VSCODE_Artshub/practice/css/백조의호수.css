@@ -8,13 +8,24 @@ li{
 li a{
     text-decoration: none;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .item{
     display: flex;
     justify-content: center;
 }
-
+.item>li:nth-child(1){
+    object-fit: cover;
+}
+.item>li>a>img{
+    height: 500px;
+    object-fit: cover;
+}
 .item>.itemlist{
-    border: 1px solid;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -47,7 +58,6 @@ li a{
     width: 400px;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 .item>.itemlist>div>button:nth-child(1),
 .item>.itemlist>div>button:nth-child(2){
@@ -66,4 +76,15 @@ li a{
     background-color:#00c4c4;
     color: white;
     cursor: pointer;
+}
+.main>div:nth-child(2){
+    width: 1000px;
+    border: 1px solid gainsboro;
+    height: 100px;
+    margin-top : 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
 }
