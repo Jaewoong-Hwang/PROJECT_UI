@@ -99,10 +99,12 @@ body>main>section>.all>.mypage>.profile {
     margin-left: 44%;
 
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 body>main>section>.all>.mypage>.profile>img {
-    width: 80%;
+    width: 100%;
 }
 
 body>main>section>.all>.mypage>.nik {
