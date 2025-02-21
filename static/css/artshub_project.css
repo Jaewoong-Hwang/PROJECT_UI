@@ -543,10 +543,11 @@ input[type="radio"]#slide-1:checked~.slide-wrap>ul.slide-list>.control>.control-
     }
 
     .projectMAIN>.project-list .project-item>img {
-        width: 50%;
+        width: 40%;
     }
 
     .projectMAIN>.project-list .project-item>div {
+        width: 60%;
         display: flex;
         gap: 10px;
         padding-right: 5px;
