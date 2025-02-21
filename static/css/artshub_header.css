@@ -184,6 +184,9 @@ ul {
     .drop-icon {
         display: block;
     }
+    .logined{
+        display: none;
+    }
 }
 
 /* 800 이하일때 메뉴창도 없앰 */
