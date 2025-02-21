@@ -100,7 +100,7 @@ body>main>section>.all>.mypage>.job1>a:nth-child(2) {
 
 
 body>main>section>.all>.mypage>.profile {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -109,12 +109,13 @@ body>main>section>.all>.mypage>.profile {
     margin-top: 20%;
 
 
-
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
 }
 
 body>main>section>.all>.mypage>.profile>img {
-    width: 80%;
+    width: 100%;
 }
 
 body>main>section>.all>.mypage>.nik {
@@ -228,9 +229,8 @@ body>main>section>.all>.work>.word {
 
 
     }
-    body>main>section>.all>.mypage{
 
-    }
+    body>main>section>.all>.mypage {}
 
     body>main>section>.all>.mypage>.job1 {
         border: 1px solid #bcbcbc;
@@ -262,8 +262,8 @@ body>main>section>.all>.work>.word {
     body>main>section>.all>.mypage>.nik::after {
         content: ">";
         position: absolute;
-        left: 69%;
-
+        left: 80%;
+        color:#29c3ff;
         cursor: pointer;
     }
 
