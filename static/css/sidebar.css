@@ -7,6 +7,7 @@
     display: none;
     justify-content: flex-end;
     flex-direction: column;
+    z-index: 101;
 }
 
 .side-nav ul {
